@@ -11,10 +11,14 @@
             "id": "74574ee94ad58b97",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "secret/wuthering-waves.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "wuthering-waves"
             }
           }
         ]
@@ -183,6 +187,9 @@
   },
   "active": "74574ee94ad58b97",
   "lastOpenFiles": [
+    "secret/game-log-2026.md",
+    "secret/wuthering-waves.md",
+    "_posts/2026-11-03-프로젝트명.md",
     "_posts/2026-11-02-portfolio.md",
     "_tabs/about.md",
     "assets/denia.png",
