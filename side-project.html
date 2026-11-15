@@ -6,7 +6,7 @@ permalink: /side-project/
 
 <div class="card-list" style="display: flex; flex-direction: column; gap: 1.25rem; margin-top: 1rem;">
   {% for item in site.sideproject %}
-    <div class="card" style="padding: 1.5rem; border-radius: 0.75rem; border: 1px solid var(--card-border-color, rgba(148,163,184,0.2)); background: var(--card-bg, inherit); transition: transform 0.2s;">
+    <div class="card" style="padding: 1.5rem; border-radius: 0.75rem; border: 1px solid var(--card-border-color, rgba(148,163,184,0.2)); background: var(--card-bg, inherit);">
       
       <!-- 글 제목 -->
       <h2 style="margin: 0 0 0.5rem 0; font-size: 1.2rem;">
@@ -21,7 +21,7 @@ permalink: /side-project/
         {{ item.date | date: "%Y-%m-%d" }}
       </div>
 
-      <!-- 프론트매터의 description만 깔끔하게 출력 (줄글 방지) -->
+      <!-- 요약문 (description) -->
       <p style="font-size: 0.95rem; opacity: 0.85; margin: 0; line-height: 1.5;">
         {{ item.description }}
       </p>
