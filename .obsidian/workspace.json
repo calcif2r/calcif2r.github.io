@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_tabs/about.md",
+                "file": "_sideproject/2026-11-14-vibe-coding-archive.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "about"
+              "title": "2026-11-14-vibe-coding-archive"
             }
           }
         ]
@@ -185,14 +185,15 @@
       "bases:새 베이스 생성하기": false
     }
   },
-  "active": "d4e58887454ae9c9",
+  "active": "74574ee94ad58b97",
   "lastOpenFiles": [
-    "_tabs/archives.md.disabled",
     "_sideproject/sjsp-001.md",
+    "_sideproject/2026-11-14-vibe-coding-archive.md",
+    "_tabs/about.md",
+    "_tabs/archives.md.disabled",
     "_sideproject",
     "_tabs/archives.md",
     "_tabs/categories.md",
-    "_tabs/about.md",
     "무제.base",
     "무제.canvas",
     "secret/index.html.md",
@@ -200,10 +201,9 @@
     "_posts/2026-11-02-portfolio.md",
     "secret/index.html",
     "_posts/2026-11-03-프로젝트명.md",
-    "_posts/2026-11-15-sjsp-001-game-routine-tracker.md",
+    "_sideproject/2026-11-15-sjsp-001-game-routine-tracker.md",
     "여기에_가이드_페이지_URL_입력.md",
     "secret/game-log-2026.md",
-    "_posts/2026-11-14-vibe-coding-archive.md",
     "_posts/2026-11-14-game-routine-tracker.md",
     "_posts/2026-11-15-vibe-coding-archive.md",
     "assets/denia.png",
