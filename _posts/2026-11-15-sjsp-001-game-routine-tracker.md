@@ -3,6 +3,7 @@ title: "[SJSP-001] 파편화된 다중 운영 데이터의 중앙화: 게임 루
 date: 2026-11-15 17:30:00 +0900
 categories: [Side-Project, SJSP]
 tags: [SJSP, 바이브코딩, 데이터구조화, 대시보드, 프로세스자동화, Google-Sheets]
+pin: true
 ---
 
 > **SJSP (Sungjo Side Project) 제1호**: 업무 외 취미 활동으로 바이브코딩을 활용해 다중 게임의 일간·주간 루틴 관리, 2차원 플레이 패턴 분석, 일일 과금 가계부를 하나로 통합한 서버리스 웹 앱 구축 및 고도화 기록입니다.
