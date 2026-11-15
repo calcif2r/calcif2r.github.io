@@ -4,9 +4,10 @@
   icon: "fab fa-linkedin"
   url: "https://www.linkedin.com/in/seongjo-heo-a395a214a"
 
-- type: email
+- type: copy-email
   icon: "fas fa-envelope"
-  noblank: true # 이메일 앱 실행 시 새 탭 열림 방지
+  url: "#copy-email"
+  noblank: true
 
 - type: rss
   icon: "fas fa-rss"
