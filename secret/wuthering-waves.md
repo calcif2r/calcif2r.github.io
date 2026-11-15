@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 명조: 워더링 웨이브 개인 메모
+title: "명조: 워더링 웨이브 개인 메모"
 permalink: /secret/wuthering-waves/
 ---
 
