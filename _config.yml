@@ -134,7 +134,7 @@ collections:
     permalink: /portfolio/:path/
   sideproject:
     output: true
-    permalink: /sideproject/:path/
+    permalink: /side-project/:path/
   secret:
     output: true
     permalink: /secret/:path/
