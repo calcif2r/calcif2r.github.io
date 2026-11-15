@@ -1,8 +1,5 @@
 #  The contact options.
 
-- type: github
-  icon: "fab fa-github"
-
 - type: linkedin
   icon: "fab fa-linkedin"
   url: "https://www.linkedin.com/in/seongjo-heo-a395a214a"
