@@ -1,9 +1,8 @@
 ---
 layout: page
-title: "명조: 워더링 웨이브 개인 메모"
+title: '"명조: 워더링 웨이브 개인 메모"'
 permalink: /secret/wuthering-waves/
 ---
-
 # 종결 파티 및 육성 플랜
 
 특정 파티 구성 및 세팅 메모 보관소입니다.
