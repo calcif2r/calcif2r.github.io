@@ -1,5 +1,30 @@
 ---
-layout: home
+layout: page
 title: Side-Project
 permalink: /side-project/
 ---
+
+<div class="row">
+  <div class="col-12">
+    {% for item in site.sideproject %}
+      <div class="card mb-3">
+        <div class="card-body">
+          <h2 class="h4 card-title">
+            <a href="{{ item.url | relative_url }}" class="text-dest text-decoration-none">
+              {{ item.title }}
+            </a>
+          </h2>
+          <p class="card-text text-muted mb-2">
+            <small>
+              <i class="far fa-calendar fa-fw me-1"></i>
+              {{ item.date | date: "%Y-%m-%d" }}
+            </small>
+          </p>
+          <p class="card-text">
+            {{ item.description }}
+          </p>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
