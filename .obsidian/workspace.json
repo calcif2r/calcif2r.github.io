@@ -187,8 +187,10 @@
   },
   "active": "74574ee94ad58b97",
   "lastOpenFiles": [
-    "무제.base",
+    "_tabs/archives.md",
+    "_tabs/categories.md",
     "_tabs/about.md",
+    "무제.base",
     "무제.canvas",
     "secret/index.html.md",
     "secret/wuthering-waves.md",
@@ -203,8 +205,6 @@
     "_posts/2026-11-15-vibe-coding-archive.md",
     "assets/denia.png",
     "README.md",
-    "_tabs/tags.md",
-    "_tabs/categories.md",
-    "_tabs/archives.md"
+    "_tabs/tags.md"
   ]
 }
