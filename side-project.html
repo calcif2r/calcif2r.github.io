@@ -1,0 +1,13 @@
+---
+layout: page
+title: Side-Project
+permalink: /side-project/
+---
+
+<ul>
+  {% for item in site.sideproject %}
+    <li>
+      <a href="{{ item.url }}">{{ item.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
