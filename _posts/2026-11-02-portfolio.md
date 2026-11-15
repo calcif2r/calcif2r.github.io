@@ -3,6 +3,7 @@ title: "고객 경험 및 BPO 운영 관리 포트폴리오"
 date: 2026-11-02 19:45:00 +0900
 categories: [Portfolio, Work]
 tags: [CS운영, 프로세스최적화, BPO]
+pin: true
 ---
 
 # 소개
