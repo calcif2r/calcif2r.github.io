@@ -25,6 +25,14 @@ description: >- # used by seo meta and the atom feed
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
 url: "https://calcif2r.github.io"
 
+collections:
+  sideproject:
+    output: true
+    permalink: /side-project/:path/
+  secret:
+    output: true
+    permalink: /secret/:path/
+
 github:
   username: calcif2r # change to your GitHub username
 
