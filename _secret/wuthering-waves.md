@@ -1,8 +1,9 @@
 ---
-layout: page
-title: '"명조: 워더링 웨이브 개인 메모"'
-permalink: /secret/wuthering-waves/
+title: "명조: 워더링 웨이브 개인 메모"
+date: 2026-11-15 10:00:00 +0900
+description: "종결 파티 조합 현황 및 돌파·가챠 재화 계획"
 ---
+
 # 종결 파티 및 육성 플랜
 
 특정 파티 구성 및 세팅 메모 보관소입니다.
