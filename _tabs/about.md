@@ -28,9 +28,42 @@ order: 3
 
 ---
 
-### 📫 Contact & Archive
-- **GitHub**: [github.com/calcif2r](https://github.com/calcif2r)
-- **Blog**: [calcif2r.github.io](https://calcif2r.github.io)
+## 📫 Contact & Archive
+
+- **Email**: <a href="javascript:void(0);" onclick="copyEmail()" style="text-decoration: underline; cursor: pointer;" title="클릭하여 이메일 복사">naru.logs@gmail.com</a> <span style="font-size: 0.85em; color: #8b949e;">(클릭 시 복사)</span>
+- **LinkedIn**: <a href="https://www.linkedin.com/in/seongjo-heo-a395a214a" target="_blank" rel="noopener noreferrer">LinkedIn 프로필 바로가기 ↗</a>
+- **Archive**: [calcif2r.github.io](https://calcif2r.github.io)
+
+<div id="copy-toast" style="visibility: hidden; min-width: 240px; background-color: #2563eb; color: #fff; text-align: center; border-radius: 8px; padding: 12px 16px; position: fixed; z-index: 9999; left: 50%; bottom: 32px; transform: translateX(-50%); font-size: 0.9rem; font-weight: 500; box-shadow: 0 4px 12px rgba(0,0,0,0.3); opacity: 0; transition: opacity 0.25s, visibility 0.25s;">
+  📋 이메일 주소가 복사되었습니다!
+</div>
+
+<script>
+function copyEmail() {
+  const email = "naru.logs@gmail.com";
+  if (navigator.clipboard && window.isSecureContext) {
+    navigator.clipboard.writeText(email).then(showToast);
+  } else {
+    const tempInput = document.createElement("input");
+    tempInput.value = email;
+    document.body.appendChild(tempInput);
+    tempInput.select();
+    document.execCommand("copy");
+    document.body.removeChild(tempInput);
+    showToast();
+  }
+}
+
+function showToast() {
+  const toast = document.getElementById("copy-toast");
+  toast.style.visibility = "visible";
+  toast.style.opacity = "1";
+  setTimeout(() => {
+    toast.style.opacity = "0";
+    toast.style.visibility = "hidden";
+  }, 2200);
+}
+</script>
 
 <div style="text-align: right; margin-top: 3rem; opacity: 0.35; font-size: 0.85rem;">
   <a href="/secret/" title="Private Archive" style="text-decoration: none; color: inherit;">🔒 Archive</a>
