@@ -18,6 +18,7 @@ layout: page
   🗂️ Explore Categories
 </div>
 
+<!-- 공개 카테고리 카드 2개 -->
 <div class="grid-cards" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem; margin-bottom: 2rem;">
   
   <!-- 1. Portfolio 랜딩 -->
@@ -28,14 +29,15 @@ layout: page
 
   <!-- 2. Side-Project (SJSP) 랜딩 -->
   <a href="/categories/side-project/" class="card" style="padding: 1.5rem; border-radius: 1rem; border: 1px solid rgba(148,163,184,0.2); text-decoration: none; display: block; transition: border-color 0.2s;">
-    <h3 style="margin-top: 0; color: inherit; font-size: 1.1rem;">🎮 Side-Project (SJSP)</h3>
+    <h3 style="margin-top: 0; color: inherit;">🎮 Side-Project (SJSP)</h3>
     <p style="font-size: 0.9rem; opacity: 0.8; margin-bottom: 0;">바이브코딩 기반 토이 프로젝트 및 대외 공개 회고록</p>
   </a>
 
-  <!-- 3. Secret 랜딩 (PIN 게이트 연동) -->
-  <a href="/secret/" class="card" style="padding: 1.5rem; border-radius: 1rem; border: 1px solid rgba(148,163,184,0.2); text-decoration: none; display: block; transition: border-color 0.2s;">
-    <h3 style="margin-top: 0; color: inherit; font-size: 1.1rem;">🔒 Private Archive</h3>
-    <p style="font-size: 0.9rem; opacity: 0.8; margin-bottom: 0;">개인 소장용 비공개 문서 및 개발 메모 (PIN 잠금)</p>
-  </a>
+</div>
 
+<!-- 🔒 은밀한 자물쇠 버튼 (하단 우측 배치, 평소엔 투명도 낮게) -->
+<div style="text-align: right; margin-top: 3rem;">
+  <a href="/secret/" title="Private Archive" style="font-size: 1.2rem; text-decoration: none; opacity: 0.3; transition: opacity 0.2s;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.3'">
+    🔒
+  </a>
 </div>
