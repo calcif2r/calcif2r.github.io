@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_sideproject/2026-11-14-vibe-coding-archive.md",
+                "file": "_portfolio/2026-11-02-portfolio.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-11-14-vibe-coding-archive"
+              "title": "2026-11-02-portfolio"
             }
           }
         ]
@@ -185,11 +185,18 @@
       "bases:새 베이스 생성하기": false
     }
   },
-  "active": "d4e58887454ae9c9",
+  "active": "74574ee94ad58b97",
   "lastOpenFiles": [
+    "_sideproject/2026-11-15-sjsp-001-game-routine-tracker.md",
+    "_sideproject/2026-11-14-vibe-coding-archive.md",
+    "_portfolio/2026-11-15-portfolio-test.md",
+    "_portfolio/2026-11-02-portfolio.md",
+    "_secret/game-log-2026.md",
+    "_secret",
+    "side-project.html",
+    "portfolio.html",
     "_portfolio",
     "_sideproject/sjsp-001.md",
-    "_sideproject/2026-11-14-vibe-coding-archive.md",
     "_tabs/about.md",
     "_tabs/archives.md.disabled",
     "_sideproject",
@@ -198,13 +205,10 @@
     "무제.base",
     "무제.canvas",
     "secret/index.html.md",
-    "secret/wuthering-waves.md",
-    "_posts/2026-11-02-portfolio.md",
+    "_secret/wuthering-waves.md",
     "secret/index.html",
     "_posts/2026-11-03-프로젝트명.md",
-    "_sideproject/2026-11-15-sjsp-001-game-routine-tracker.md",
     "여기에_가이드_페이지_URL_입력.md",
-    "secret/game-log-2026.md",
     "_posts/2026-11-14-game-routine-tracker.md",
     "_posts/2026-11-15-vibe-coding-archive.md",
     "assets/denia.png",
