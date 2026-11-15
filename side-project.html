@@ -4,38 +4,27 @@ title: Side-Project
 permalink: /side-project/
 ---
 
-<div class="card-list" style="display: flex; flex-direction: column; gap: 1.25rem;">
+<div class="card-list" style="display: flex; flex-direction: column; gap: 1.25rem; margin-top: 1rem;">
   {% for item in site.sideproject %}
-    <div class="card" style="padding: 1.5rem; border-radius: 0.75rem; border: 1px solid var(--card-border-color, rgba(148,163,184,0.2)); background: var(--card-bg, inherit);">
+    <div class="card" style="padding: 1.5rem; border-radius: 0.75rem; border: 1px solid var(--card-border-color, rgba(148,163,184,0.2)); background: var(--card-bg, inherit); transition: transform 0.2s;">
       
-      <!-- 제목 -->
-      <h2 style="margin: 0 0 0.5rem 0; font-size: 1.25rem;">
+      <!-- 글 제목 -->
+      <h2 style="margin: 0 0 0.5rem 0; font-size: 1.2rem;">
         <a href="{{ item.url | relative_url }}" style="text-decoration: none; color: inherit; font-weight: bold;">
           {{ item.title }}
         </a>
       </h2>
 
       <!-- 작성일 -->
-      <div style="font-size: 0.85rem; opacity: 0.6; margin-bottom: 1rem;">
+      <div style="font-size: 0.85rem; opacity: 0.6; margin-bottom: 0.75rem;">
         <i class="far fa-calendar fa-fw me-1"></i>
         {{ item.date | date: "%Y-%m-%d" }}
       </div>
 
-      <!-- 본문 요약 (마크다운 태그 깔끔하게 정돈 및 200자로 축약) -->
-      <div class="post-content" style="font-size: 0.95rem; opacity: 0.9; line-height: 1.6;">
-        {% if item.description %}
-          {{ item.description }}
-        {% else %}
-          {{ item.content | markdownify | strip_html | truncate: 200 }}
-        {% endif %}
-      </div>
-
-      <!-- 상세보기 링크 -->
-      <div style="margin-top: 1rem;">
-        <a href="{{ item.url | relative_url }}" style="font-size: 0.9rem; text-decoration: none; font-weight: 500;">
-          Read more &rarr;
-        </a>
-      </div>
+      <!-- 프론트매터의 description만 깔끔하게 출력 (줄글 방지) -->
+      <p style="font-size: 0.95rem; opacity: 0.85; margin: 0; line-height: 1.5;">
+        {{ item.description }}
+      </p>
 
     </div>
   {% endfor %}
