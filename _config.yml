@@ -12,14 +12,10 @@ description: >-
 url: "https://calcif2r.github.io"
 baseurl: ""
 
-github:
-  username: calcif2r
-
 social:
   name: Naru
   email: naru.logs@gmail.com
   links:
-    - https://github.com/calcif2r
     - https://www.linkedin.com/in/seongjo-heo-a395a214a
 
 # 프로필 및 UI 기본 설정
