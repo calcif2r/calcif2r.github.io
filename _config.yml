@@ -127,14 +127,14 @@ kramdown:
       line_numbers: true
       start_line: 1
 
-# 컬렉션 설정 통합 (Portfolio, Side-Project, Secret, tabs)
+# 컬렉션 설정 통합 (Portfolio, SideProject, Secret, tabs)
 collections:
   portfolio:
     output: true
     permalink: /portfolio/:path/
   sideproject:
     output: true
-    permalink: /side-project/:path/
+    permalink: /sideproject/:path/
   secret:
     output: true
     permalink: /secret/:path/
