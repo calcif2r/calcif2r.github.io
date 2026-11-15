@@ -1,9 +1,0 @@
----
----
-
-@import 'main';
-
-/* 사이드바 하단 RSS(XML) 아이콘 숨김 처리 */
-.sidebar-bottom a[aria-label="rss"] {
-  display: none !important;
-}
