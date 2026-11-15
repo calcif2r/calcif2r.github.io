@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "명조: 워더링 웨이브 육성 & 파티 아카이브"
-permalink: /secret/ww-builds/
+title: 명조: 워더링 웨이브 개인 메모
+permalink: /secret/wuthering-waves/
 ---
 
 # 종결 파티 및 육성 플랜
