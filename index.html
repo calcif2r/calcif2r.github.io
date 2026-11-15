@@ -1,4 +1,43 @@
 ---
-layout: home
-# Index page
+layout: page
 ---
+
+<div style="font-size: 1.5rem; font-weight: bold; margin-bottom: 1rem;">
+  👋 안녕하세요, Naru입니다.
+</div>
+
+<p style="line-height: 1.6; opacity: 0.9;">
+  파편화된 오퍼레이션 데이터를 통합하고,<br>
+  반복적인 에러를 시스템으로 통제하는 기획 및 개발 아카이브입니다.<br>
+  관심 있는 영역을 선택해 주세요.
+</p>
+
+<hr style="margin: 2rem 0; border: none; border-top: 1px solid rgba(148,163,184,0.2);">
+
+<div style="font-size: 1.2rem; font-weight: bold; margin-bottom: 1rem;">
+  🗂️ Explore Categories
+</div>
+
+<!-- 공개 카테고리 카드 2개 -->
+<div class="grid-cards" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem; margin-bottom: 2rem;">
+  
+  <!-- 1. Portfolio 랜딩 -->
+  <a href="/categories/portfolio/" class="card" style="padding: 1.5rem; border-radius: 1rem; border: 1px solid rgba(148,163,184,0.2); text-decoration: none; display: block; transition: border-color 0.2s;">
+    <h3 style="margin-top: 0; color: inherit; font-size: 1.1rem;">💼 Work Portfolio</h3>
+    <p style="font-size: 0.9rem; opacity: 0.8; margin-bottom: 0;">실무 오퍼레이션 개선 및 프로세스 자동화 성과 아카이브</p>
+  </a>
+
+  <!-- 2. Side-Project (SJSP) 랜딩 -->
+  <a href="/categories/side-project/" class="card" style="padding: 1.5rem; border-radius: 1rem; border: 1px solid rgba(148,163,184,0.2); text-decoration: none; display: block; transition: border-color 0.2s;">
+    <h3 style="margin-top: 0; color: inherit;">🎮 Side-Project (SJSP)</h3>
+    <p style="font-size: 0.9rem; opacity: 0.8; margin-bottom: 0;">바이브코딩 기반 토이 프로젝트 및 대외 공개 회고록</p>
+  </a>
+
+</div>
+
+<!-- 🔒 은밀한 자물쇠 버튼 (하단 우측 배치, 평소엔 투명도 낮게) -->
+<div style="text-align: right; margin-top: 3rem;">
+  <a href="/secret/" title="Private Archive" style="font-size: 1.2rem; text-decoration: none; opacity: 0.3; transition: opacity 0.2s;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.3'">
+    🔒
+  </a>
+</div>
