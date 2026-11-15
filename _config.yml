@@ -136,7 +136,7 @@ collections:
     output: true
     permalink: /side-project/:path/
   secret:
-    output: true
+    output: false
     permalink: /secret/:path/
   tabs:
     output: true
