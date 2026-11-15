@@ -27,16 +27,21 @@ document.addEventListener("DOMContentLoaded", function() {
   const copyBtn = document.getElementById("modal-copy-btn");
   const closeBtn = document.getElementById("modal-close-btn");
 
-  // 좌측 하단 이메일 아이콘(mailto 링크) 가로채기
-  document.querySelectorAll('.sidebar-bottom a[href^="mailto:"]').forEach(link => {
-    link.removeAttribute("href");
-    link.style.cursor = "pointer";
-    link.addEventListener("click", function(e) {
-      e.preventDefault();
-      copyBtn.textContent = "주소 복사하기";
-      copyBtn.style.background = "#3b82f6";
-      modal.style.display = "flex";
-    });
+  // 좌측 하단 편지봉투(.fa-envelope) 아이콘의 부모 <a> 태그를 찾아 기존 href 무력화
+  document.querySelectorAll('.sidebar-bottom .fa-envelope').forEach(icon => {
+    const link = icon.closest('a');
+    if (link) {
+      link.setAttribute("href", "javascript:void(0);");
+      link.removeAttribute("target");
+      link.style.cursor = "pointer";
+      link.addEventListener("click", function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        copyBtn.textContent = "주소 복사하기";
+        copyBtn.style.background = "#3b82f6";
+        modal.style.display = "flex";
+      });
+    }
   });
 
   // 복사 버튼 클릭 동작
